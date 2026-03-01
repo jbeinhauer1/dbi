@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
     }
 
     const resend = new Resend(apiKey);
-    const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID || "";
+    const AUDIENCE_ID = process.env.RESEND_AUDIENCE_ID || "c81b5296-6779-400b-8652-7928255d2e83";
 
     // Add contact to Resend Audience
     await resend.contacts.create({
@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     // Send notification email to jerry
     await resend.emails.send({
       from: "DBI Notifications <noreply@drugbenefitintegrity.com>",
-      to: "contact@drugbenefitintegrity.com",
+      to: "jerry@apalyrx.com",
       subject: "New DBI Subscriber",
       html: `
         <p>New subscriber to Drug Benefit Integrity:</p>
