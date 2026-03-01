@@ -37,12 +37,11 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-navy mb-6">The Problem</h2>
           <p className="text-body leading-relaxed mb-6">
-            Every entity making drug benefit decisions today has a financial
-            interest in the outcome. PBMs evaluate their own dispensing channel
-            decisions. Manufacturers fund programs that keep patients on branded
-            products. No independent party executes or verifies that each
-            prescription was routed to the lowest net cost across all available
-            channels.
+            In today&apos;s pharmacy benefit structure, the entities making
+            routing decisions often have financial relationships with the
+            dispensing channels being evaluated. Manufacturer-funded programs —
+            while valuable — frequently operate outside the benefit, creating
+            gaps in visibility and coordination.
           </p>
           <p className="text-navy font-bold text-lg">
             Transparency shows what happened. Integrity proves it happened right.
@@ -62,7 +61,7 @@ export default function Home() {
               <ul className="space-y-3 text-body">
                 <li>Shows what happened after the fact</li>
                 <li>Produced by the entity that made the decision</li>
-                <li>Conflict is visible but still present</li>
+                <li>Structural overlap remains</li>
               </ul>
             </div>
             <div className="bg-light-bg-alt p-8 rounded-lg">
@@ -70,7 +69,7 @@ export default function Home() {
               <ul className="space-y-3 text-body">
                 <li>Ensures it happened right in the first place</li>
                 <li>Produced by an independent party with no channel interest</li>
-                <li>Conflict is structurally eliminated</li>
+                <li>Structural independence is built in</li>
               </ul>
             </div>
           </div>

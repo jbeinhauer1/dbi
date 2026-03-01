@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     // Send notification email to jerry
     await resend.emails.send({
       from: "DBI Notifications <noreply@drugbenefitintegrity.com>",
-      to: "jerry@apalyrx.com",
+      to: "contact@drugbenefitintegrity.com",
       subject: "New DBI Subscriber",
       html: `
         <p>New subscriber to Drug Benefit Integrity:</p>

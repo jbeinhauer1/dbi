@@ -50,18 +50,10 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
                 <a
-                  href="mailto:jerry@apalyrx.com"
+                  href="mailto:contact@drugbenefitintegrity.com"
                   className="text-gray-300 hover:text-white no-underline hover:no-underline"
                 >
-                  jerry@apalyrx.com
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:3523452421"
-                  className="text-gray-300 hover:text-white no-underline hover:no-underline"
-                >
-                  352-345-2421
+                  contact@drugbenefitintegrity.com
                 </a>
               </li>
             </ul>
@@ -69,18 +61,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-gray-600 mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400 gap-2">
-          <p>
-            Maintained by{" "}
-            <a
-              href="https://apalyrx.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white no-underline hover:no-underline"
-            >
-              ApalyRx
-            </a>
-          </p>
+        <div className="border-t border-gray-600 mt-12 pt-6 text-center text-sm text-gray-400">
           <p>&copy; 2026 Drug Benefit Integrity</p>
         </div>
       </div>

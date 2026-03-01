@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     q: "Who developed the DBI standard?",
-    a: "Developed by ApalyRx, a licensed pharmacy with no ownership in any dispensing channel. Published openly for the industry.",
+    a: "The Drug Benefit Integrity framework was developed by pharmacy benefits professionals and is published openly for the industry to evaluate, adopt, and build upon.",
   },
   {
     q: "Can any organization meet DBI requirements?",
@@ -94,24 +94,23 @@ export default function WhatIsDBI() {
               data.
             </p>
             <p className="text-body leading-relaxed mb-4">
-              When a PBM produces a report showing it steered a prescription to
-              its own specialty pharmacy at the lowest available cost, who
-              produced that evaluation? The PBM. Who owns the specialty pharmacy?
-              The PBM. Who defined &ldquo;lowest available cost&rdquo; and
-              selected which channels to compare? The PBM.
+              When the entity that made a routing decision also produces the
+              report evaluating that decision, the evaluation — however
+              accurate — is not independent. The same organization defined the
+              options, selected the channel, and assessed whether the outcome
+              was optimal.
             </p>
             <p className="text-body leading-relaxed mb-4">
-              Showing a plan sponsor the details of a conflicted decision
-              doesn&apos;t make the decision unconflicted. It just makes the
-              conflict visible.
+              Disclosing the details of a decision does not change the
+              structure under which the decision was made. Transparency and
+              independence serve different functions.
             </p>
             <p className="text-body leading-relaxed">
-              Even the best transparent PBMs face this structural challenge. A
-              transparent PBM that evaluates its own dispensing channel decisions
-              and reports those channels won — that is a company evaluating
-              itself. It may be honest. It may be accurate. But it is not
-              independent, and under increasing fiduciary scrutiny, that
-              distinction matters.
+              Even the most advanced transparent PBM models face this
+              structural reality. When the entity reporting on decisions is
+              also the entity that made them, the evaluation is not
+              independent — regardless of its accuracy. Under increasing
+              fiduciary scrutiny, that structural distinction matters.
             </p>
           </div>
 
@@ -128,8 +127,9 @@ export default function WhatIsDBI() {
                 noncompliance penalties
               </li>
               <li>
-                <strong className="text-navy">FTC:</strong> Behavioral remedies
-                on Express Scripts, cases against Caremark and OptumRx
+                <strong className="text-navy">FTC:</strong> Ongoing
+                enforcement activity examining pharmacy benefit practices and
+                market structure
               </li>
               <li>
                 <strong className="text-navy">DOL:</strong> Proposed rule
@@ -170,14 +170,14 @@ export default function WhatIsDBI() {
               DBI Is Not Anti-PBM
             </h2>
             <p className="text-body leading-relaxed mb-4">
-              Drug Benefit Integrity is not hostile to PBMs. It is protective of
-              them.
+              Drug Benefit Integrity is designed to strengthen the position of
+              every participant in the pharmacy benefit ecosystem.
             </p>
             <p className="text-body leading-relaxed mb-4">
               A PBM that can point to an independent integrity layer
-              demonstrating its dispensing channel decisions were optimal is in a
-              stronger position than one asking employers to take its word for
-              it.
+              demonstrating its dispensing channel decisions were optimal is in
+              a stronger position — with clients, prospects, and regulators
+              alike.
             </p>
             <p className="text-body leading-relaxed mb-4">
               In an environment where consultants put transparent PBM

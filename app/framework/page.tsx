@@ -93,8 +93,8 @@ export default function Framework() {
         <div className="max-w-3xl mx-auto px-6 text-center">
           <p className="text-secondary">
             Questions about the framework? Contact{" "}
-            <a href="mailto:jerry@apalyrx.com" className="text-accent">
-              jerry@apalyrx.com
+            <a href="mailto:contact@drugbenefitintegrity.com" className="text-accent">
+              contact@drugbenefitintegrity.com
             </a>
           </p>
         </div>

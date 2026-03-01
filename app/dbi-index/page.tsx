@@ -21,7 +21,7 @@ const modelExamples = [
   "Capital Rx, RxBenefits, SmithRx",
   "Elevance/IngenioRx, Centene",
   "Ascent, EmsanaRx",
-  "ApalyRx model",
+  "",
 ];
 
 const requirements = [
@@ -41,9 +41,9 @@ const matrix: Rating[][] = [
 ];
 
 const rationales = [
-  "Vertically integrated PBMs own specialty pharmacies, mail-order pharmacies, and retail chains. Routing decisions are made by the same entity that profits from the dispensing channel selected.",
-  "Pass-through PBMs have eliminated spread pricing and improved reporting. However, most do not hold pharmacy licenses, do not route across manufacturer-direct channels, and evaluate their own network decisions.",
-  "Similar structural conflicts to traditional PBMs. The health plan owns or controls the PBM and often has affiliated pharmacy operations.",
+  "In vertically integrated models, the entity managing the benefit also owns dispensing channels — specialty, mail-order, and retail. Routing decisions and fulfillment share common ownership, creating structural overlap.",
+  "Pass-through PBMs have made significant progress in eliminating spread pricing and improving reporting transparency. However, most do not hold pharmacy licenses, do not evaluate manufacturer-direct channels, and assess their own network decisions internally.",
+  "The health plan's relationship with its PBM and affiliated pharmacy operations creates structural overlap similar to vertically integrated models.",
   "Group purchasing models improve pricing leverage but typically do not operate as licensed pharmacies, do not evaluate manufacturer-direct options, and lack decision-level documentation.",
   "Licensed pharmacy with no channel ownership, real-time routing across all channels including manufacturer-direct, fulfilled through independent pharmacies, with automatic decision-level records.",
 ];
