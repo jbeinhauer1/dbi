@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Five Requirements — Drug Benefit Integrity",
+  title: "The Five Requirements - Drug Benefit Integrity",
   description:
     "Each requirement is binary. Yes or no. If any answer is 'No,' the drug benefit lacks independent integrity verification.",
 };
@@ -13,7 +13,7 @@ const requirements = [
     explanation:
       "Every in-scope prescription is evaluated against PBM specialty, PBM mail, retail, manufacturer-direct, and independent pharmacy channels simultaneously. Not retrospectively sampled. Every script, every channel, in real time.",
     rationale:
-      'If you claim a prescription was filled at the best available price, you must have evaluated all options. Today, most pharmacy benefit routing occurs within the PBM\'s contracted network — mail, specialty, and preferred retail channels. Channels outside the network, including manufacturer-direct pricing, are typically not evaluated as part of the benefit decision. This is a structural limitation, not a criticism — it reflects how the system was built. The financial services equivalent would be a broker evaluating only proprietary funds and calling it best execution. Real-time matters because a retrospective audit sampling 2% of claims six months later is not verification — it is spot-checking after the fact.',
+      'If you claim a prescription was filled at the best available price, you must have evaluated all options. Today, most pharmacy benefit routing occurs within the PBM\'s contracted network - mail, specialty, and preferred retail channels. Channels outside the network, including manufacturer-direct pricing, are typically not evaluated as part of the benefit decision. This is a structural limitation, not a criticism - it reflects how the system was built. The financial services equivalent would be a broker evaluating only proprietary funds and calling it best execution. Real-time matters because a retrospective audit sampling 2% of claims six months later is not verification - it is spot-checking after the fact.',
     verification:
       "Is every in-scope prescription evaluated across all available fulfillment channels in real time?",
   },
@@ -23,7 +23,7 @@ const requirements = [
     explanation:
       "The entity executing routing decisions holds a pharmacy license and has no financial interest in which channel fills the prescription. Independence is structural, not contractual.",
     rationale:
-      "A pharmacy license is not just a credential — it creates a legal and regulatory framework nothing else provides. A licensed pharmacy operates under state board of pharmacy oversight, is subject to HIPAA as a covered entity, has a legal duty of care to patients, and can receive and act on electronic prescriptions. That last point is critical: to intercept a prescription at the point of decision — before it routes to a specific channel — you must be a licensed entity in the e-prescribing workflow. A consulting firm cannot do this. A TPA cannot do this. A software company cannot do this. Only a licensed pharmacy can sit in the prescription pathway, receive a script, evaluate all options, and route it. Without the license, you are limited to retrospective analysis. The license enables real-time execution, not just evaluation. A licensed pharmacy also carries professional liability for its decisions — accountability that a software vendor or analytics company does not have.\n\nWhen an entity that owns a dispensing channel also evaluates whether that channel offered the best option, the evaluation is structurally self-referential. It may be accurate. But it lacks the independence that fiduciary standards increasingly require. This is why financial services requires independent auditors — not because the system assumes bad faith, but because structural independence is what makes the system trustworthy.",
+      "A pharmacy license is not just a credential - it creates a legal and regulatory framework nothing else provides. A licensed pharmacy operates under state board of pharmacy oversight, is subject to HIPAA as a covered entity, has a legal duty of care to patients, and can receive and act on electronic prescriptions. That last point is critical: to intercept a prescription at the point of decision - before it routes to a specific channel - you must be a licensed entity in the e-prescribing workflow. A consulting firm cannot do this. A TPA cannot do this. A software company cannot do this. Only a licensed pharmacy can sit in the prescription pathway, receive a script, evaluate all options, and route it. Without the license, you are limited to retrospective analysis. The license enables real-time execution, not just evaluation. A licensed pharmacy also carries professional liability for its decisions - accountability that a software vendor or analytics company does not have.\n\nWhen an entity that owns a dispensing channel also evaluates whether that channel offered the best option, the evaluation is structurally self-referential. It may be accurate. But it lacks the independence that fiduciary standards increasingly require. This is why financial services requires independent auditors - not because the system assumes bad faith, but because structural independence is what makes the system trustworthy.",
     verification:
       "Does the evaluating entity have any ownership, affiliate, or financial relationship with a dispensing channel?",
   },
@@ -31,9 +31,9 @@ const requirements = [
     num: "03",
     title: "Manufacturer-direct programs built into the benefit",
     explanation:
-      "Copay programs, patient assistance, and direct pricing are evaluated as benefit options — not carved out as separate cash-pay transactions invisible to the plan.",
+      "Copay programs, patient assistance, and direct pricing are evaluated as benefit options - not carved out as separate cash-pay transactions invisible to the plan.",
     rationale:
-      "When a manufacturer offers a copay card, patient assistance, or direct pricing program, those options typically exist outside the benefit structure. Similarly, direct-to-consumer pharmacy platforms and discount programs operate independently of the plan. These may offer lower costs for certain prescriptions, but because they sit outside the benefit, the plan has no visibility into them and cannot evaluate them alongside traditional channels. DBI requires all available options — including manufacturer-direct and alternative pricing programs — be evaluated as part of the benefit decision. If a lower-cost option exists outside the benefit structure, the system should be able to identify and evaluate it.",
+      "When a manufacturer offers a copay card, patient assistance, or direct pricing program, those options typically exist outside the benefit structure. Similarly, direct-to-consumer pharmacy platforms and discount programs operate independently of the plan. These may offer lower costs for certain prescriptions, but because they sit outside the benefit, the plan has no visibility into them and cannot evaluate them alongside traditional channels. DBI requires all available options - including manufacturer-direct and alternative pricing programs - be evaluated as part of the benefit decision. If a lower-cost option exists outside the benefit structure, the system should be able to identify and evaluate it.",
     verification:
       "Are manufacturer-direct programs evaluated alongside traditional channels as part of the benefit, or carved out?",
   },
@@ -53,7 +53,7 @@ const requirements = [
     explanation:
       "Each routing decision generates an auditable record: channels compared, rules applied, routing rationale, net cost components, and closed-loop financial reconciliation.",
     rationale:
-      'Today, most pharmacy benefit reporting is aggregate — total spend, generic fill rates, rebate summaries. What is typically unavailable is a record for each prescription showing what channels were evaluated, what rules applied, why the winning channel was selected, and the net cost components. Without decision-level records, a plan fiduciary cannot independently verify any individual routing decision. DBI requires every in-scope prescription to generate its own auditable record automatically — produced at the point of decision, not assembled from claims data after the fact. This is the difference between a bank statement (what happened) and a trade execution record (why it happened and what alternatives were considered).',
+      'Today, most pharmacy benefit reporting is aggregate - total spend, generic fill rates, rebate summaries. What is typically unavailable is a record for each prescription showing what channels were evaluated, what rules applied, why the winning channel was selected, and the net cost components. Without decision-level records, a plan fiduciary cannot independently verify any individual routing decision. DBI requires every in-scope prescription to generate its own auditable record automatically - produced at the point of decision, not assembled from claims data after the fact. This is the difference between a bank statement (what happened) and a trade execution record (why it happened and what alternatives were considered).',
     verification:
       "Does every prescription produce an auditable record of the decision process, including all channels evaluated?",
   },

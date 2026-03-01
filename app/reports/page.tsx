@@ -3,7 +3,7 @@ import Link from "next/link";
 import EmailSignup from "../components/EmailSignup";
 
 export const metadata: Metadata = {
-  title: "Reports — Drug Benefit Integrity",
+  title: "Reports - Drug Benefit Integrity",
   description:
     "Monthly assessment of the pharmacy benefits industry's structural alignment with DBI standards.",
 };
@@ -36,7 +36,7 @@ export default function Reports() {
                 </span>
               </div>
               <h2 className="text-lg font-bold text-navy mb-2">
-                State of Drug Benefit Integrity — March 2026
+                State of Drug Benefit Integrity - March 2026
               </h2>
               <p className="text-tertiary text-sm mb-4">March 1, 2026</p>
               <p className="text-body text-sm mb-6 flex-1">
@@ -55,7 +55,7 @@ export default function Reports() {
                   disabled
                   className="px-5 py-2 bg-gray-200 text-tertiary text-sm font-semibold rounded cursor-not-allowed"
                 >
-                  Download PDF — Coming Soon
+                  Download PDF - Coming Soon
                 </button>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Reports() {
                 </span>
               </div>
               <h2 className="text-lg font-bold text-navy mb-2">
-                State of Drug Benefit Integrity — April 2026
+                State of Drug Benefit Integrity - April 2026
               </h2>
               <p className="text-tertiary text-sm mb-4">April 1, 2026</p>
               <p className="text-secondary text-sm flex-1">
@@ -85,7 +85,7 @@ export default function Reports() {
                 </span>
               </div>
               <h2 className="text-lg font-bold text-navy mb-2">
-                State of Drug Benefit Integrity — May 2026
+                State of Drug Benefit Integrity - May 2026
               </h2>
               <p className="text-tertiary text-sm mb-4">May 1, 2026</p>
               <p className="text-secondary text-sm flex-1">

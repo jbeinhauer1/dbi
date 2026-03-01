@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Framework — Drug Benefit Integrity",
+  title: "Framework - Drug Benefit Integrity",
   description:
     "A practical tool for evaluating any pharmacy benefit arrangement against Drug Benefit Integrity standards.",
 };
@@ -50,7 +50,7 @@ export default function Framework() {
           <h2 className="text-2xl font-bold text-navy mb-6">What It Is</h2>
           <p className="text-body leading-relaxed">
             The DBI Framework is a one-page evaluation tool built on the five
-            DBI requirements. Each requirement is binary — yes or no. Use it to
+            DBI requirements. Each requirement is binary - yes or no. Use it to
             score any PBM arrangement, compare alternatives, and document
             fiduciary diligence.
           </p>

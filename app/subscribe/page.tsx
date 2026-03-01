@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import EmailSignup from "../components/EmailSignup";
 
 export const metadata: Metadata = {
-  title: "Subscribe — Drug Benefit Integrity",
+  title: "Subscribe - Drug Benefit Integrity",
   description:
     "Receive the monthly State of Drug Benefit Integrity report and framework updates.",
 };

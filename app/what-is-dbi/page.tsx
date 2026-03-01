@@ -69,12 +69,12 @@ export default function WhatIsDBI() {
             <p className="text-body leading-relaxed">
               DBI is a structural standard for evaluating whether pharmacy
               benefit decisions are independently executed, verified, and
-              documented. It moves beyond transparency — which shows what
-              happened — to integrity — which ensures it happened right and
+              documented. It moves beyond transparency - which shows what
+              happened - to integrity - which ensures it happened right and
               provides independent proof.
             </p>
             <p className="text-body leading-relaxed mt-4">
-              DBI is not a product. It is not a company. It is a discipline — a
+              DBI is not a product. It is not a company. It is a discipline - a
               set of requirements that any pharmacy benefit arrangement can be
               measured against. It draws from the same principles that govern
               financial services: the entity executing transactions on behalf of
@@ -95,8 +95,8 @@ export default function WhatIsDBI() {
             </p>
             <p className="text-body leading-relaxed mb-4">
               When the entity that made a routing decision also produces the
-              report evaluating that decision, the evaluation — however
-              accurate — is not independent. The same organization defined the
+              report evaluating that decision, the evaluation - however
+              accurate - is not independent. The same organization defined the
               options, selected the channel, and assessed whether the outcome
               was optimal.
             </p>
@@ -109,12 +109,12 @@ export default function WhatIsDBI() {
               Even the most advanced transparent PBM models face this
               structural reality. When the entity reporting on decisions is
               also the entity that made them, the evaluation is not
-              independent — regardless of its accuracy. Under increasing
+              independent - regardless of its accuracy. Under increasing
               fiduciary scrutiny, that structural distinction matters.
             </p>
           </div>
 
-          {/* Regulatory Catalyst — callout box */}
+          {/* Regulatory Catalyst - callout box */}
           <div className="bg-light-bg border-l-4 border-accent p-8 rounded-r-lg">
             <h2 className="text-2xl font-bold text-navy mb-6">
               The Regulatory Catalyst
@@ -155,8 +155,8 @@ export default function WhatIsDBI() {
             </p>
             <p className="text-body leading-relaxed mb-4">
               The concept that an entity executing financial transactions on
-              behalf of clients must demonstrate — through independent
-              verification — that it acted in the client&apos;s interest is
+              behalf of clients must demonstrate - through independent
+              verification - that it acted in the client&apos;s interest is
               foundational in finance.
             </p>
             <p className="text-body leading-relaxed">
@@ -176,7 +176,7 @@ export default function WhatIsDBI() {
             <p className="text-body leading-relaxed mb-4">
               A PBM that can point to an independent integrity layer
               demonstrating its dispensing channel decisions were optimal is in
-              a stronger position — with clients, prospects, and regulators
+              a stronger position - with clients, prospects, and regulators
               alike.
             </p>
             <p className="text-body leading-relaxed mb-4">

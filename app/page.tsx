@@ -12,7 +12,7 @@ export default function Home() {
           </h1>
           <p className="text-lg text-secondary max-w-3xl mx-auto mb-10 leading-relaxed">
             Drug Benefit Integrity is the independent standard for evaluating
-            whether pharmacy benefit decisions are made — and verified — in the
+            whether pharmacy benefit decisions are made - and verified - in the
             plan&apos;s interest.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -39,8 +39,8 @@ export default function Home() {
           <p className="text-body leading-relaxed mb-6">
             In today&apos;s pharmacy benefit structure, the entities making
             routing decisions often have financial relationships with the
-            dispensing channels being evaluated. Manufacturer-funded programs —
-            while valuable — frequently operate outside the benefit, creating
+            dispensing channels being evaluated. Manufacturer-funded programs -
+            while valuable - frequently operate outside the benefit, creating
             gaps in visibility and coordination.
           </p>
           <p className="text-navy font-bold text-lg">

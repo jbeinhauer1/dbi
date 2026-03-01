@@ -12,7 +12,7 @@ export default function Footer() {
             </p>
             <p className="text-gray-300 text-sm leading-relaxed">
               The independent standard for evaluating whether pharmacy benefit
-              decisions are made — and verified — in the plan&apos;s interest.
+              decisions are made - and verified - in the plan&apos;s interest.
             </p>
           </div>
 

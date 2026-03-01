@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The DBI Index — Drug Benefit Integrity",
+  title: "The DBI Index - Drug Benefit Integrity",
   description:
     "Measuring the pharmacy benefits industry's alignment with Drug Benefit Integrity standards.",
 };
@@ -41,7 +41,7 @@ const matrix: Rating[][] = [
 ];
 
 const rationales = [
-  "In vertically integrated models, the entity managing the benefit also owns dispensing channels — specialty, mail-order, and retail. Routing decisions and fulfillment share common ownership, creating structural overlap.",
+  "In vertically integrated models, the entity managing the benefit also owns dispensing channels - specialty, mail-order, and retail. Routing decisions and fulfillment share common ownership, creating structural overlap.",
   "Pass-through PBMs have made significant progress in eliminating spread pricing and improving reporting transparency. However, most do not hold pharmacy licenses, do not evaluate manufacturer-direct channels, and assess their own network decisions internally.",
   "The health plan's relationship with its PBM and affiliated pharmacy operations creates structural overlap similar to vertically integrated models.",
   "Group purchasing models improve pricing leverage but typically do not operate as licensed pharmacies, do not evaluate manufacturer-direct options, and lack decision-level documentation.",
@@ -113,7 +113,7 @@ export default function DBIIndex() {
           <p className="text-secondary mt-6 max-w-2xl mx-auto">
             The pharmacy benefits industry meets virtually none of the five
             structural requirements for independent drug benefit integrity. This
-            is not an indictment — it is a baseline.
+            is not an indictment - it is a baseline.
           </p>
         </div>
       </section>
@@ -212,7 +212,7 @@ export default function DBIIndex() {
                 <h3 className="text-lg font-bold text-navy mb-2">
                   {type}{" "}
                   <span className="text-tertiary font-normal text-sm">
-                    — {modelExamples[i]}
+                    - {modelExamples[i]}
                   </span>
                 </h3>
                 <p className="text-body leading-relaxed">{rationales[i]}</p>
@@ -229,7 +229,7 @@ export default function DBIIndex() {
           <p className="text-body leading-relaxed">
             The DBI Index evaluates structural conditions, not individual company
             performance. Each requirement is assessed against publicly available
-            evidence — SEC filings, FTC enforcement actions, CMS data, published
+            evidence - SEC filings, FTC enforcement actions, CMS data, published
             contract structures, and corporate disclosures. Ratings are: Met
             (structural conditions fully exist), Partially Met (some elements
             present but structural gaps remain), Not Met (structural conditions

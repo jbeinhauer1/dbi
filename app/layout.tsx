@@ -7,9 +7,9 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Drug Benefit Integrity — The Independent Standard",
+  title: "Drug Benefit Integrity - The Independent Standard",
   description:
-    "Drug Benefit Integrity is the independent standard for evaluating whether pharmacy benefit decisions are made — and verified — in the plan's interest.",
+    "Drug Benefit Integrity is the independent standard for evaluating whether pharmacy benefit decisions are made - and verified - in the plan's interest.",
 };
 
 export default function RootLayout({
